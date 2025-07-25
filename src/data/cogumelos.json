@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "nomePopular": "Cogumelo do Mario",
+    "nomeCientifico": "Amanita muscaria",
+    "descricao": "Um cogumelo icônico com seu chapéu vermelho e pintas brancas. Apesar de sua aparência amigável, é tóxico e psicoativo.",
+    "imagemUrl": "https://myceliuminspired.com/mushrooms/the-fly-agaric-amanita-muscaria",
+    "tipo": "venenoso",
+    "habitat": [
+      "floresta",
+      "montanha"
+    ]
+  },
+  {
+    "id": 2,
+    "nomePopular": "Champignon de Paris",
+    "nomeCientifico": "Agaricus bisporus",
+    "descricao": "O cogumelo mais comum e cultivado no mundo, usado em pizzas, estrogonofes e saladas. Sabor suave e textura firme.",
+    "imagemUrl": "https://placehold.co/300x300/d4d4d8/44403c?text=🍄",
+    "tipo": "comestivel",
+    "habitat": [
+      "cultivado"
+    ]
+  },
+  {
+    "id": 3,
+    "nomePopular": "Cogumelo Ostra",
+    "nomeCientifico": "Pleurotus ostreatus",
+    "descricao": "Recebe este nome por sua semelhança com uma ostra. É comestível, delicioso e conhecido por seu crescimento rápido em troncos.",
+    "imagemUrl": "https://placehold.co/300x300/a3a3a3/ffffff?text=🍄",
+    "tipo": "comestivel",
+    "habitat": [
+      "floresta",
+      "troncos"
+    ]
+  },
+  {
+    "id": 4,
+    "nomePopular": "Cartola de Duende",
+    "nomeCientifico": "Mycena interrupta",
+    "descricao": "Um pequeno e delicado cogumelo azul-celeste que parece brilhar na floresta. Não é comestível e é admirado por sua beleza.",
+    "imagemUrl": "https://placehold.co/300x300/60a5fa/ffffff?text=🍄",
+    "tipo": "nao-comestivel",
+    "habitat": [
+      "floresta"
+    ]
+  }
+]
