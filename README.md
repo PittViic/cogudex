@@ -39,12 +39,12 @@ Gostaria de experimentar ou contribuir para o Cogudex? Siga estes passos simples
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/SEU-NOME-DE-USUARIO/SEU-REPOSITORIO.git](https://github.com/SEU-NOME-DE-USUARIO/SEU-REPOSITORIO.git)
+    git clone [https://github.com/PittViic/cogudex.git](https://github.com/PittViic/cogudex.git)
     ```
 
 2.  **Navegue até à pasta do projeto:**
     ```bash
-    cd SEU-REPOSITORIO
+    cd cogudex
     ```
 
 3.  **Instale as dependências:**
