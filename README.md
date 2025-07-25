@@ -1,6 +1,6 @@
 # 🍄 Cogudex - A sua Pokédex de Cogumelos!
 
-![Imagem de uma captura de ecrã do Cogudex](https://placehold.co/800x400/FFDDD8/44403c?text=Adicione+aqui+um+screenshot+do+seu+app!)
+![Imagem de uma captura de ecrã do Cogudex]([https://placehold.co/800x400/FFDDD8/44403c?text=Adicione+aqui+um+screenshot+do+seu+app!](https://github.com/user-attachments/assets/77d286b5-6eb9-4144-8ec9-81b3077adf78))
 > Um guia de campo fofinho e interativo para explorar as maravilhas do Reino Fungi.
 
 ---
