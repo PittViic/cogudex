@@ -75,7 +75,7 @@ O Cogudex é um projeto em constante evolução! Algumas das funcionalidades que
 
 ### 👤 Autores
 
-Feito com ❤️ e curiosidade por **Pedro Victor**.
+Feito por **Pedro Victor e Iara**.
 
 * **GitHub:** [PittViic](https://github.com/PittViic)
 * **LinkedIn:** [Pedro Victor](https://www.linkedin.com/in/pedro-victor-ssa/)
