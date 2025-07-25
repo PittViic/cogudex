@@ -73,11 +73,11 @@ O Cogudex é um projeto em constante evolução! Algumas das funcionalidades que
 
 ---
 
-### 👤 Autor
+### 👤 Autores
 
-Feito com ❤️ e curiosidade por **[O SEU NOME AQUI]**.
+Feito com ❤️ e curiosidade por **Pedro Victor**.
 
-* **GitHub:** [@SEU-NOME-DE-USUARIO](https://github.com/SEU-NOME-DE-USUARIO)
-* **LinkedIn:** [Seu Nome no LinkedIn](https://www.linkedin.com/in/SEU-PERFIL/)
+* **GitHub:** [@SEU-NOME-DE-USUARIO](https://github.com/PittViic)
+* **LinkedIn:** [Seu Nome no LinkedIn](https://www.linkedin.com/in/pedro-victor-ssa/)
 
 
