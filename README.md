@@ -70,6 +70,9 @@ O Cogudex é um projeto em constante evolução! Algumas das funcionalidades que
 * [ ] Animações e micro-interações para tornar a experiência ainda mais agradável.
 * [ ] Modo escuro (Dark Mode).
 * [ ] Suporte para múltiplos idiomas.
+* [ ] Criação de perfil do usuário.
+* [ ] Quiz lúdico para descobrir qual cogumelo "representa" o usuário.
+* [ ] Glossário micológico interativo.
 
 ---
 
@@ -79,5 +82,9 @@ Feito por **Pedro Victor e Iara**.
 
 * **GitHub:** [PittViic](https://github.com/PittViic)
 * **LinkedIn:** [Pedro Victor](https://www.linkedin.com/in/pedro-victor-ssa/)
+
+* **GitHub:** [aiaraskata](https://github.com/aiaraskata)
+* **LinkedIn:** [Iara Vasconcelos Barbosa](https://www.linkedin.com/in/iara-vasconcelos-barbosa/)
+  
 
 
