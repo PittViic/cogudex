@@ -6,4 +6,5 @@ export interface Cogumelo {
   imagemUrl: string;
   tipo: 'comestivel' | 'venenoso' | 'nao-comestivel';
   habitat: string[];
+  curiosidades: string[];
 }

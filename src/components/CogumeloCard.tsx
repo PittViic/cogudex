@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import type { Cogumelo } from '../types';
 
 function CogumeloCard({ cogumelo }: { cogumelo: Cogumelo }) {
+
+  const [isFlipped, setIsFlipped] = useState(false);
+
   const tipoEstilos = {
     'comestivel': 'bg-green-100 text-green-800 border-green-400',
     'venenoso': 'bg-red-100 text-red-800 border-red-400',

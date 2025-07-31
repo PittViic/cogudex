@@ -3,15 +3,27 @@ import dadosDosCogumelos from './data/cogumelos.json';
 import CogumeloCard from './components/CogumeloCard';
 import type { Cogumelo } from './types'; 
 
+type TipoFiltro = 'todos' | 'comestivel' | 'venenoso' | 'nao-comestivel';
+
 function App() {
   const [termoBusca, setTermoBusca] = useState('');
+  const [filtroAtivo, setFiltroAtivo] = useState<TipoFiltro>('todos');
   
   const cogumelos: Cogumelo[] = dadosDosCogumelos;
 
-  const cogumelosFiltrados = cogumelos.filter(cogumelo => 
-    cogumelo.nomePopular.toLowerCase().includes(termoBusca.toLowerCase()) ||
-    cogumelo.nomeCientifico.toLowerCase().includes(termoBusca.toLowerCase())
-  );
+  const cogumelosFiltrados = cogumelos
+    .filter(cogumelo => {
+      // 1. Filtra por tipo (comestível, venenoso, etc.)
+      if (filtroAtivo === 'todos') {
+        return true;
+      }
+      return cogumelo.tipo === filtroAtivo; // Senão, retorna apenas os do tipo selecionado
+    })
+    .filter(cogumelo => 
+      // 2. Depois, filtra o resultado pelo termo de busca
+      cogumelo.nomePopular.toLowerCase().includes(termoBusca.toLowerCase()) ||
+      cogumelo.nomeCientifico.toLowerCase().includes(termoBusca.toLowerCase())
+    );
 
   return (
     <div className="min-h-screen bg-amber-50 font-sans p-4 sm:p-8">
@@ -31,9 +43,25 @@ function App() {
               value={termoBusca}
               onChange={(e) => setTermoBusca(e.target.value)}
             />
-            <div className="flex items-center gap-2">
-              <button className="px-4 py-2 bg-green-200 text-green-900 rounded-xl hover:bg-green-300 transition">Comestíveis</button>
-              <button className="px-4 py-2 bg-red-200 text-red-900 rounded-xl hover:bg-red-300 transition">Venenosos</button>
+            <div className="flex items-center gap-2 flex-wrap">
+              <button 
+                onClick={() => setFiltroAtivo('todos')}
+                className={`px-4 py-2 rounded-xl font-semibold transition ${filtroAtivo === 'todos' ? 'bg-emerald-500 text-white ring-2 ring-emerald-600' : 'bg-stone-200 text-stone-700 hover:bg-stone-300'}`}
+              >
+                Todos
+              </button>
+              <button 
+                onClick={() => setFiltroAtivo('comestivel')}
+                className={`px-4 py-2 rounded-xl font-semibold transition ${filtroAtivo === 'comestivel' ? 'bg-green-500 text-white ring-2 ring-green-600' : 'bg-green-200 text-green-900 hover:bg-green-300'}`}
+              >
+                Comestíveis
+              </button>
+              <button 
+                onClick={() => setFiltroAtivo('venenoso')}
+                className={`px-4 py-2 rounded-xl font-semibold transition ${filtroAtivo === 'venenoso' ? 'bg-red-500 text-white ring-2 ring-red-600' : 'bg-red-200 text-red-900 hover:bg-red-300'}`}
+              >
+                Venenosos
+              </button>
             </div>
           </div>
         </div>
@@ -53,7 +81,7 @@ function App() {
         </main>
         
         <footer className="text-center mt-16 text-stone-500">
-          <p>Criado com ❤️ e curiosidade.</p>
+          <p>Criado com curiosidade.</p>
         </footer>
 
       </div>
