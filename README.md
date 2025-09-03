@@ -39,7 +39,7 @@ Gostaria de experimentar ou contribuir para o Cogudex? Siga estes passos simples
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/PittViic/cogudex.git](https://github.com/PittViic/cogudex.git)
+    git clone https://github.com/PittViic/cogudex.git
     ```
 
 2.  **Navegue até à pasta do projeto:**
